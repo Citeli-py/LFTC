@@ -1,0 +1,33 @@
+q1 q7
+
+/ 1- le 1 a
+/ 2- le 2 a
+/ 3- le a
+/ 4- le b
+/ 5- volta
+/ 6- vai ate ]
+/ 7- fim
+
+
+q1 [ q1 [ R
+q1 a q2 A R
+
+q2 a q3 A R
+
+q3 a q4 A R
+q3 B q6 B R
+q3 ] q7 ] L
+
+q4 a q4 a R
+q4 b q5 B R
+q4 B q4 B R
+
+q5 B q5 B L
+q5 b q5 b L
+q5 a q5 a L
+q5 A q3 A R
+q5 ] q5 ] L
+
+q6 A q6 A R
+q6 B q6 B R
+q6 ] q7 ] L

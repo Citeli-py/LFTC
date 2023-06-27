@@ -1,0 +1,23 @@
+q1 q5
+
+/ 1- le a
+/ 2- le b
+/ 3- volta
+/ 4- vai ate o final
+/ 5- fim
+
+q1 [ q1 [ R
+q1 a q2 A R
+q1 B q4 B R / fim
+
+q2 a q2 a R
+q2 B q2 B R
+q2 b q3 B L
+
+q3 a q3 a L
+q3 b q3 b L / redundante
+q3 B q3 B L
+q3 A q1 A R
+
+q4 B q4 B R
+q4 ] q5 ] L
